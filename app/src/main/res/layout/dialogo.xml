@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondoformu"
+    android:orientation="vertical">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/et_nombre"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+
+            android:layout_marginBottom="5dp"
+            android:padding="10dp"
+            android:textSize="24sp"
+            android:inputType="text"
+
+            android:hint="@string/et_nombre" />
+
+        <EditText
+            android:id="@+id/et_edad"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            android:textSize="24sp"
+            android:layout_marginBottom="5dp"
+
+            android:inputType="text"
+
+            android:padding="10dp"
+            android:hint="@string/et_edad" />
+        <EditText
+            android:id="@+id/et_tipoDeAnimal"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textSize="24sp"
+            android:layout_marginBottom="10dp"
+            android:inputType="text"
+
+
+            android:padding="10dp"
+            android:hint="@string/et_tipoDeAnimal" />
+
+        <EditText
+            android:id="@+id/et_raza"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="48dp"
+            android:textSize="24sp"
+            android:inputType="text"
+
+            android:layout_marginBottom="10dp"
+
+            android:padding="10dp"
+            android:hint="@string/et_raza" />
+
+        <EditText
+            android:id="@+id/et_telefono"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:inputType="text"
+
+            android:layout_marginBottom="20dp"
+
+            android:padding="10dp"
+            android:hint="@string/et_telefono" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_agregar"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:textSize="20sp"
+
+                android:text="@string/btn_agregar"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/btn_cancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:text="@string/btn_cancelar"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

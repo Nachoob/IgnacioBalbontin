@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">IgnacioBalbontin</string>
+    <string name="btn_agregar">Registrar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="et_nombre">Nombre del Animal</string>
+    <string name="et_edad">Edad del Animal</string>
+    <string name="et_raza">Raza del Animal</string>
+    <string name="et_telefono">Telefono de Contacto</string>
+    <string name="et_tipoDeAnimal">Tipo de Animal</string>
+
+</resources>
